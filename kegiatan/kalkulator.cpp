@@ -23,3 +23,22 @@ int main(){
   cin>>bil1;
   cout<<"Bilangan kedua : ";
   cin>>bil2;  
+  
+  
+switch(pil){
+  case 1 : hasil=bil1+bil2;
+    operasi='+';
+    break;
+  case 2 : hasil=bil1-bil2;
+    operasi='-';
+    break;
+  case 3 : hasil=bil1-bil2;
+    operasi='*';
+    break;
+  case 4 : hasil=bil1:bil2;
+    operasi=':';
+    break;
+  default :
+    cout << "Salah memasukkan operasi" << endl;
+}
+   
